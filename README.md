@@ -7,8 +7,8 @@
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Retrofit2](https://img.shields.io/badge/Retrofit2-58595B.svg?style=for-the-badge&logo=retrofit&logoColor=white)
-![Naver Map API](https://img.shields.io/badge/Naver%20API-03C75A.svg?style=for-the-badge&logo=naver&logoColor=white)
-![Naver Search API](https://img.shields.io/badge/Naver%20API-03C75A.svg?style=for-the-badge&logo=naver&logoColor=white)
+![Naver Map API](https://img.shields.io/badge/Naver%20Map%20API-03C75A.svg?style=for-the-badge&logo=naver&logoColor=white)
+![Naver Search API](https://img.shields.io/badge/Naver%20Search%20API-03C75A.svg?style=for-the-badge&logo=naver&logoColor=white)
 ![MPAndroidChart](https://img.shields.io/badge/MPAndroidChart-F7931E.svg?style=for-the-badge&logo=mpandroidchart&logoColor=white)
 
 <br>
@@ -21,15 +21,15 @@
 ### 담당 구현 기능
 - 행사 상세 페이지(한국관광공사 데이터 전처리)
   - 한국관광공사 데이터 전처리
-  - Naver Map API 활용해 받아온 행사 좌표를 토대로 지도 출력
-  - Naver Blog API 연동해 행사 후기 시각화
-  - MPAndroidChart를 활용한 차트 시각화 
+  - Naver Map API 활용해 행사 지도 출력
+  - Naver Blog API 연동해 행사 후기 리스트화
+  - MPAndroidChart를 활용한 후기 차트 시각화 
 - 마이페이지
   - ViewPager2내에 RecyclerView 구현
   - 찜하기, 방문하기 버튼 상태 동기화
   - 회원 CRUD API 연동
 - 홈 페이지
-  - 인기 행사/유저 맞춤형 행사 API 연동
+  - 인기 행사/유저 맞춤형 행사 출력 API 연동
 - 후기 작성 페이지
   - Multipart/form-data 형식 이미지 전송 API 연동
 
